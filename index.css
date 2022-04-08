@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.App{
+    width: 100%;
+  }
+  
+  .Header{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0, 0.3);
+    border-radius: 5px;
+    padding: 20px;
+  }
+  .logo{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(186, 144, 36);
+  }
+  .nav{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+  }
+  .nav li{
+    padding: 10px;
+  }
+  .link{
+    text-decoration: none;
+    color: rgb(82, 81, 81);
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .link:hover{
+    background-color: rgb(162, 162, 162);
+    color: white;
+  }
+  .container{
+    display: flex;
+    width: 1400px;
+    flex-direction: column;
+    
+  }
+  .cover-img{
+    width: 100%;
+    margin-left: 40px;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  .heading{
+    padding: 10px;
+    text-align: center;
+    border-bottom: 2px solid rgb(186, 144, 36);
+    margin-left: 60px;
+    font-weight: bold;
+  }
+  .services{
+    display: flex;
+    margin-left: 50px;
+   
+  }
+  .services-items{
+    flex-basis: 30%;
+    width: 250px;
+    padding: 20px;
+  }
+  .label{
+    color:rgb(186, 144, 36);
+    font-size: larger;
+    font-weight: bold;
+  }
+  .testmonial{
+    display: flex;
+    margin: 50px;
+    justify-content: space-between;
+    padding: 0, 50px;
+    align-items: center;
+  }
+  .card{
+    width: 200px;
+    padding: 30px;
+    box-shadow: 5px 5px 10px rgba(0,0,0, 0.3)
+  }
+  .user{
+    width: 100px;
+    border-radius: 50%;
+    border: 3px solid rgb(186, 144, 36);
+  }
+  .userid{
+    color: rgb(186, 144, 36);
+    font-weight: bold;
+  }
+  .attorney{
+    display: flex;
+    margin: 50px;
+    justify-content: space-between;
+    padding: 0, 50px;
+    align-items: center;
+  }
+  .card-attorney{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 30px;
+  }
+  .user-name{
+    font-size: larger;
+    padding: 5px;
+    font-weight: bold;
+  }
+  .contact{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+  
+  }
+  .contact label{
+    font-size: larger;
+    font-weight: bold;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
